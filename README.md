@@ -1,6 +1,6 @@
 # LightBox
 Arduino / ESP32 project for controlling lights on an rc car based on rc receiver values. 
-This code in src/main.cpp is intended to be very readable and self-documenting.
+The controller code contained in src/main.cpp is intended to be very readable and self-documenting.
 
 Some features: 
 
