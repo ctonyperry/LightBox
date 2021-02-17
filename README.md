@@ -4,6 +4,11 @@ The controller code contained in src/main.cpp is intended to be very readable an
 
 Some features: 
 
+- Running lights
+- Brake lights
+- Turn Signals
+- Reverse signal
+- Throttle based exhaust blue flame effect. 
 - Configurable light colors
 - Configurable light arrangement
 - Global car state and receiver state objects
