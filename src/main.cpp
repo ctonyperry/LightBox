@@ -248,7 +248,7 @@ void serviceThrottleSignalLamps()
   switch (carState[THROTTLE])
   {
   case DRIVING:
-    //todo driving mode
+    //move driving mode init here from main loop. 
     break;
 
   case TURBO:
@@ -295,35 +295,6 @@ void loop()
   updateRCValues();
   updateCarStates();
   serviceSignalLamps();
-
   timer.tick();
-  // switch (carState[STEERING])
-  // {
-  // case TURNING_LEFT:
-  //   leds[0] = CRGB::Yellow;
-
-  //   break;
-
-  // case TURNING_RIGHT:
-  //   leds[6] = CRGB::Yellow;
-  //   break;
-
-  // case NOT_TURNING:
-  //   leds[6] = CRGB::Black;
-  //   leds[0] = CRGB::Black;
-  //   break;
-  // }
-
-  // switch (carState[THROTTLE])
-  // {
-  // case DRIVING:
-  //   initRunningMode();
-
-  //   break;
-  // }
-
-  //TODO Build out a real exhaust effect. For now, we do this
-  
- 
   FastLED.show();
 }
