@@ -16,3 +16,9 @@ Some features:
 
 - Mode switching based on Aux channel
 - Additional 'Light show' modes. (using WS2812FX if feasible). 
+
+##Wish List
+
+- Engine sound simulation
+- Gyro channel passthrough for rule based gain adjustments (eg. if lateral g's indicate likely spinout, increase gain). This can also drive:
+- Gyro based car states / effects
