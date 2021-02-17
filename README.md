@@ -1,2 +1,3 @@
 # LightBox
-Arduino / ESP32 project for controlling lights on an rc car base on rc receiver values.
+Arduino / ESP32 project for RC Car lights based on receiver values. 
+
