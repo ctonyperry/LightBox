@@ -1,6 +1,6 @@
 # LightBox
-Arduino / ESP32 Platform.io project for controlling lights on an rc drift car based on receiver values. Could easily be adapted to suit any surface vehicle.
-The controller code contained in src/main.cpp is intended to be very readable and self-documenting.
+A personal Arduino / ESP32 Platform.io project for controlling lights on an rc drift car based on receiver values. Could easily be adapted to suit any surface vehicle.
+The controller code contained in src/main.cpp is intended to be very readable and self-documenting. Feel free to use/modify or create a pull request/ form if you want to use this elsewhere.
 
 Some features: 
 
