@@ -25,6 +25,5 @@ Some features:
 ## Wish List
 
 
-- Gyro channel passthrough for rule based gain adjustments (eg. if lateral g's indicate likely spinout, increase gain). The purpose of this is to limit gyro gain during low inertia moments, making it easier to initiate a slide, increasing gain as the car starts to approach lateral movement indicating potential spinout.
-- Gyro based car states / effects
-- Engine sound simulation. I believe this should be possible on ESP32, but will need to evaluate if any refactoring of blocking code is neccesary
+- Gyro based car states / effects.
+- Engine sound simulator. Grain table synth?
