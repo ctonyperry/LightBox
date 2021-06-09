@@ -8,7 +8,7 @@ Some features:
 - Brake lights
 - Turn Signals
 - Reverse signal
-- Throttle based exhaust blue flame effect. 
+- Throttle based exhaust backfire effect. 
 - Configurable light colors
 - Configurable light arrangement
 - Global car state and receiver state objects
