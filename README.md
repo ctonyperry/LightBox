@@ -2,7 +2,7 @@
 A personal Arduino / ESP32 Platform.io project for controlling lights on an rc drift car based on receiver values. Could easily be adapted to suit any surface vehicle.
 The controller code contained in src/main.cpp is intended to be very readable and self-documenting. Feel free to use/modify or create a pull request/ form if you want to use this elsewhere.
 
-This project is designed to run on an Arduino device connected to a string of WS2811/12 LEDS from a single pin. Lamps are defined by their address in that led chain as well as their purpose (Always on, responds to signal, etc)
+This project is designed to run on an Arduino device connected to a string of WS2811/12 LEDS from a single pin. Lamps are defined by their address in that led chain as well as their purpose (Always on, responds to signal, etc). The project also uses up to 4 serial ports on the Arduino device to read incoming receiver values. Typically you'd connect the receiver to serial pots using a Y adapter off of each servo signal wire (throttle, turn, aux). An enterprising person could change this to read values from a composite signal stream (S.Bus, I.Bus, PPM)
 
 Some features: 
 
