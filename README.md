@@ -2,6 +2,8 @@
 A personal Arduino / ESP32 Platform.io project for controlling lights on an rc drift car based on receiver values. Could easily be adapted to suit any surface vehicle.
 The controller code contained in src/main.cpp is intended to be very readable and self-documenting. Feel free to use/modify or create a pull request/ form if you want to use this elsewhere.
 
+This project is designed to run on an Arduino device connected to a string of WS2811/12 LEDS from a single pin. Lamps are defined by their address in that led chain as well as their purpose (Always on, responds to signal, etc)
+
 Some features: 
 
 - Running lights
